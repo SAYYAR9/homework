@@ -12,5 +12,10 @@
 # val = 'ajfewlnfk'.i salpha()
 # val = 'sijfj33efeij'.isnumeric()
 # val = 'dfgnskjdfse4oj390efe'.isalnum()
-val = 'sdfhs/ə sjfw'.isascii()
-print(val)
+# val = 'sdfhs/ə sjfw'.isascii()
+
+telebe = 'Sayyar'
+uni = 'BDU'
+kurs = 'IV'
+data = '{} {}-da {} kurs telebesidir'
+print(data.format(telebe,uni,kurs))
