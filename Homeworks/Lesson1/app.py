@@ -14,8 +14,22 @@
 # val = 'dfgnskjdfse4oj390efe'.isalnum()
 # val = 'sdfhs/ə sjfw'.isascii()
 
-telebe = 'Sayyar'
-uni = 'BDU'
-kurs = 'IV'
-data = '{} {}-da {} kurs telebesidir'
-print(data.format(telebe,uni,kurs))
+# telebe = 'Sayyar'
+# uni = 'BDU'
+# kurs = 'IV'
+# data = '{} {}-da {} kurs telebesidir'
+# print(data.format(telebe,uni,kurs))
+
+password = input('kodu daxil et: ')
+if not len(password)>8 and len(password)<40:
+    print('Ən az 8 və ən çox 40 characterdən ibarət olmalıdır')
+elif not password.isascii():
+    print('ancaq ingilis shriftlerinden istifade olunmalidir')
+elif not password.isalnum():
+    print('ancaq herf ve reqemden ibaret olmalidir')
+elif password.isupper() or password.islower():
+    print('Mütləq şəkildə ən az bir kicik ve bir boyuk herf olmalidir')
+elif password.isalpha() and password.isalnum():
+    print('en az bir herf ve bir reqem olmalidir')
+else:
+    print('Sifre qebul edildi')
