@@ -35,15 +35,22 @@
 #     print('Sifre qebul edildi')
 
 
-number = input('nomreni daxil edin: ')
+# number = input('nomreni daxil edin: ')
 
-if len(number) == 13:
-    if number.startswith('+994'):
-        if number[1:14].isnumeric():
-            print('nomreni duzgun daxil etdiniz')
-        else:
-            print('tekce reqem daxil ede bilersiniz')
-    else:
-        print('+994 ile baslamalidir')
-else:
-    print('nomrenin uzunlugu duzgun deyil')
+# if len(number) == 13:
+#     if number.startswith('+994'):
+#         if number[1:14].isnumeric():
+#             print('nomreni duzgun daxil etdiniz')
+#         else:
+#             print('tekce reqem daxil ede bilersiniz')
+#     else:
+#         print('+994 ile baslamalidir')
+# else:
+#     print('nomrenin uzunlugu duzgun deyil')
+
+
+text = input('Metni daxil edin: ')
+word = input('deyismek istediyiniz sozu girin: ')
+update_word = input('neye deyismek istediyinizi girin: ')
+update_text = text.replace(word , update_word)
+print(update_text)  
