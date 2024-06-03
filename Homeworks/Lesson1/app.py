@@ -49,8 +49,8 @@
 #     print('nomrenin uzunlugu duzgun deyil')
 
 
-text = input('Metni daxil edin: ')
-word = input('deyismek istediyiniz sozu girin: ')
-update_word = input('neye deyismek istediyinizi girin: ')
-update_text = text.replace(word , update_word)
-print('Nəticə:\n' + update_text)  
+# text = input('Metni daxil edin: ')
+# word = input('deyismek istediyiniz sozu girin: ')
+# update_word = input('neye deyismek istediyinizi girin: ')
+# update_text = text.replace(word , update_word)
+# print('Nəticə:\n' + update_text)  
