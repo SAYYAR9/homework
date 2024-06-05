@@ -54,3 +54,10 @@
 # update_word = input('neye deyismek istediyinizi girin: ')
 # update_text = text.replace(word , update_word)
 # print('Nəticə:\n' + update_text)  
+
+num = 1
+result = 0
+while num < 100:
+    result += num
+    num += 1
+print(result)
