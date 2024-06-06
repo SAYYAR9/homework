@@ -70,3 +70,19 @@
 #     if num % 9999 == 0:
 #         print(num)
 #     num -= 1
+
+
+
+###################################3
+
+text = 'Men her gun Python oyrenirem'
+saitler = 'aioue'
+counter = len(text) - 1
+result = ''
+
+while counter >= 0:
+    char = text[counter]
+    if char not in saitler:
+        result+=char
+    counter-=1
+print(result)
