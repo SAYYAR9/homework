@@ -75,14 +75,39 @@
 
 ###################################3
 
-text = 'Men her gun Python oyrenirem'
-saitler = 'aioue'
-counter = len(text) - 1
-result = ''
+# text = 'Men her gun Python oyrenirem'
+# saitler = 'aioue'
+# counter = len(text) - 1
+# result = ''
 
-while counter >= 0:
-    char = text[counter]
+# while counter >= 0:
+#     char = text[counter]
+#     if char not in saitler:
+#         result+=char
+#     counter-=1
+# print(result)
+
+#############################
+
+
+# result = 0
+# for i in range(1,101):
+#     result+=i
+# print(result)
+
+###################################
+
+# for i in range(100_000 , 0, -1):
+#     if i % 9999 == 0:
+#         print(i)
+#         break
+
+text = 'Men her gun python oyrenirem'
+saitler='aioue'
+result=''
+
+for char in text:
     if char not in saitler:
-        result+=char
-    counter-=1
+        result += char
 print(result)
+
